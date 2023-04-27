@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex  items-center gap-x-12">
           <div className="flex items-center">
             <h1 className=" ">
-              <span className="text-2xl  md:text-3xl md:font-medium">Can</span>{" "}
+              <span className="text-2xl  md:text-3xl font-medium">Can</span>{" "}
               <span className="text-2xl md:text-3xl font-extralight">
                 Altun
               </span>

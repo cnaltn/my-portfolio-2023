@@ -19,9 +19,9 @@ const App = () => {
 
   return (
     <div className="">
-      <div className="fixed top-0 left-0 w-full  opacity-100 brightness-[15%] hue-rotate-[0deg] z-10">
+      <div className="fixed top-0 left-0 w-full  opacity-100 brightness-[25%] hue-rotate-[0deg] z-10">
         <video
-          className="bg-video__content object-cover h-screen w-full"
+          className="bg-video__content object-cover object-left  h-screen w-full"
           autoPlay={true}
           loop
           muted
