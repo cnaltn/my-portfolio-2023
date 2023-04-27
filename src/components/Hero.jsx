@@ -21,7 +21,7 @@ const Hero = () => {
 
   return (
     <div className="h-screen w-full flex " id="home">
-      <div className="container items-center flex z-20 gap-x-5">
+      <div className="container items-center flex z-20 lg:gap-x-5">
         <div className="w-full lg:w-[60%] gap-y-3 flex flex-col leading-snug">
           <h1 className="mainTag text-3xl sm:text-6xl lg:text-8xl font-bold">
             Think. Make. Solve.
