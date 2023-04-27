@@ -20,7 +20,7 @@ const Arts = () => {
 
   return (
     <div className="h-screen w-full flex " id="who">
-      <div className="container justify-center gap-y-5 md:gap-y-0 items-center flex flex-col-reverse md:flex-row  z-20 gap-x-5">
+      <div className="container justify-center gap-y-5 lg:gap-y-0 items-center flex flex-col-reverse lg:flex-row  z-20 gap-x-5">
         <div className="w-full lg:w-[60%] gap-y-5 flex flex-col leading-snug">
           <h1 className="mainTag text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold">
             Who am I
