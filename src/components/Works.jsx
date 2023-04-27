@@ -17,7 +17,7 @@ const Works = () => {
   });
 
   return (
-    <div className="h-max lg:h-screen flex mb-24 lg:mb-0" id="works">
+    <div className="h-max xl:h-screen flex mb-24 lg:mb-0" id="works">
       <div className=" container justify-center z-20 items-center flex flex-col gap-y-12">
         <div className="w-full gap-y-5 flex flex-col leading-snug ">
           <h1 className="mainTag text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold w-full lg:w-[70%]">
