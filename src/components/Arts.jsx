@@ -49,9 +49,9 @@ const Arts = () => {
             Request my CV
           </p>
         </div>
-        <div className="w-[40%] justify-center md:justify-end  items-center   flex">
+        <div className=" w-[60%] md:w-[40%] justify-center md:justify-end  items-center   flex">
           <img
-            className="imgTag z-10 w-[420px] rounded-full "
+            className="imgTag z-10 w-[340px] lg:w-[420px] rounded-full "
             src={portfolio}
           ></img>
         </div>
