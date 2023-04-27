@@ -15,7 +15,7 @@ const Navbar = () => {
             </h1>
           </div>
           <div>
-            <ul className="hidden md:flex items-center gap-x-5 font-thin ">
+            <ul className="hidden lg:flex items-center gap-x-5 font-thin ">
               <li>
                 <a href="#home">Home</a>
               </li>
