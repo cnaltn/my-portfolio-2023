@@ -13,7 +13,7 @@ const MySkills = () => {
 
   return (
     <div className="h-screen flex" id="skills">
-      <div className="container items-center z-20 flex gap-x-5">
+      <div className="container items-center z-20 flex lg:gap-x-5">
         <div className="w-full lg:w-[60%] gap-y-5 flex flex-col leading-snug">
           <h1 className="secondTag text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold ">
             My Skills
