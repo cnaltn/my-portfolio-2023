@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import portfolio from "../../public/pr.jpg";
 import ScrollReveal from "scrollreveal";
+import CV from "../../public/Can_Altun_CV_2023.pdf";
 
 const Arts = () => {
   useEffect(() => {
@@ -45,9 +46,13 @@ const Arts = () => {
             new challenges and opportunities to further my knowledge and skill
             set, and I am excited to see where my career will take me next.
           </p>
-          <p className="bTag text-[0.813rem] cursor-pointer bg-amber-600 font-light w-max p-2 rounded">
-            Request my CV
-          </p>
+          <a
+            href={CV}
+            target="_blank"
+            className="bTag text-[0.813rem] cursor-pointer bg-amber-600 font-light w-max p-2 rounded"
+          >
+            Download My CV
+          </a>
         </div>
         <div className=" w-[60%] md:w-[40%] justify-center md:justify-end  items-center   flex">
           <img

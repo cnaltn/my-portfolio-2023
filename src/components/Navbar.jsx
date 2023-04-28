@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="md:flex text-normal items-center gap-x-4 hidden">
           <a
             href={CV}
-            download
+            target="_blank"
             className="bg-sky-600 rounded p-2 cursor-pointer font-thin"
           >
             Download My CV
