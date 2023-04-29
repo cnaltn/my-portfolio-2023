@@ -7,12 +7,12 @@ const Navbar = () => {
       <div className="flex items-center justify-between  container">
         <div className="flex  items-center gap-x-12">
           <div className="flex items-center">
-            <h1 className=" ">
+            <a href="#home" className=" ">
               <span className="text-h2 md:text-big font-medium">Can</span>{" "}
               <span className="text-h2 md:text-big md:text-3xl font-extralight">
                 Altun
               </span>
-            </h1>
+            </a>
           </div>
           <div>
             <ul className="hidden lg:flex text-normal items-center gap-x-5 font-thin ">
