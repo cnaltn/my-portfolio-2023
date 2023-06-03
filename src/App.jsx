@@ -5,10 +5,12 @@ import Works from "./components/Works";
 import Arts from "./components/Arts";
 import Navbar from "./components/Navbar";
 import MySkills from "./components/MySkills";
-import video2 from "../public/cc.mp4";
+import video2 from "../public/cc2.mp4";
+import Maintenance from "./components/Maintenance";
 
 const App = () => {
   const [count, setCount] = useState(0);
+  const [maintenance, isMaintenance] = useState(false);
 
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
@@ -31,13 +33,17 @@ const App = () => {
       </div>
 
       <section className="h-screen text-white">
-        <div className="">
-          <Navbar></Navbar>
-          <Hero></Hero>
-          <Arts></Arts>
-          <MySkills></MySkills>
-          <Works></Works>
-          <Contact></Contact>
+        <div>
+          {maintenance !== false ? <Maintenance></Maintenance> : ""}
+          <div className={maintenance === true ? "hidden" : ""}>
+            <Navbar></Navbar>
+            <Hero></Hero>
+            <Arts></Arts>
+            <MySkills></MySkills>
+            <Works></Works>
+
+            <Contact></Contact>
+          </div>
         </div>
       </section>
     </div>

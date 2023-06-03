@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Component } from "react";
 import web1 from "../../public/web1.png";
 import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
@@ -6,6 +6,8 @@ import web4 from "../../public/web4.png";
 import web6 from "../../public/web6.png";
 import ScrollReveal from "scrollreveal";
 import { Link } from "react-router-dom";
+
+import Slider from "react-slick";
 
 const Works = () => {
   useEffect(() => {
@@ -15,6 +17,14 @@ const Works = () => {
       duration: 1200,
     });
   });
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  };
 
   return (
     <div className=" xl:h-screen flex mb-24 lg:mb-0" id="works">

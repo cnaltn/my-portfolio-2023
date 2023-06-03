@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar";
 import gandalf from "../../public/22.jpg";
 import ScrollReveal from "scrollreveal";
+import Swiper from "react-id-swiper";
 
 const Hero = () => {
   useEffect(() => {
