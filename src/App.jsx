@@ -9,15 +9,7 @@ import video2 from "../public/cc2.mp4";
 import Maintenance from "./components/Maintenance";
 
 const App = () => {
-  const [count, setCount] = useState(0);
   const [maintenance, isMaintenance] = useState(false);
-
-  // Similar to componentDidMount and componentDidUpdate:
-  useEffect(() => {
-    // Update the document title using the browser API
-
-    console.log(count);
-  });
 
   return (
     <div className="">
