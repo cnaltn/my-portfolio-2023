@@ -36,13 +36,13 @@ const Navbar = () => {
           </div>
         </div>
         <div className="md:flex text-normal items-center gap-x-4 hidden">
-          <a
+       /*   <a
             href={CV}
             target="_blank"
             className="bg-sky-600 rounded p-2 cursor-pointer font-thin"
           >
             Download My CV
-          </a>
+          </a>*/
           <a
             href="#contact"
             className="bg-amber-600 rounded p-2 cursor-pointer font-thin"
