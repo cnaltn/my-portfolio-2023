@@ -46,13 +46,7 @@ const Arts = () => {
             new challenges and opportunities to further my knowledge and skill
             set, and I am excited to see where my career will take me next.
           </p>
-        /*  <a
-            href={CV}
-            target="_blank"
-            className="bTag text-[0.813rem] cursor-pointer bg-amber-600 font-light w-max p-2 rounded"
-          >
-            Download My CV
-          </a>*/
+      
         </div>
         <div className=" w-[60%] md:w-[40%] justify-center md:justify-end  items-center   flex">
           <img
